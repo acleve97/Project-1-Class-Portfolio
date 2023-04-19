@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(124, 26, 26);
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+  }
+  
+  /* Top left text */
+  .center-left {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(2, 2, 2);
+    transform: translate(-50%, -50%);
+  }

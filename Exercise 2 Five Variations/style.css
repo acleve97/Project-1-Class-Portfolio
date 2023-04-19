@@ -1,0 +1,36 @@
+
+body{
+    background-color: #FFCED3;
+  }
+  
+  .one{
+    font-family: 'Century Gothic', 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:#DB5461;
+    text-shadow: 5px 5px white;
+    letter-spacing: 5px;
+  }
+  
+  .two{
+    font-family: 'Century Gothic', 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:#8E3B44;
+    text-shadow: 10px 10px white;
+    letter-spacing: 5px;
+  }
+  
+  .three{
+    font-family: 'Century Gothic', 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:#F98E99;
+    text-shadow: 10px 10px white;
+    letter-spacing: 5px;
+  }
+  
+  .four{
+    font-family: 'Century Gothic', 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:#38171A;
+    text-shadow: 10px 10px white;
+    letter-spacing: 5px;
+  }

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainpage.css">
+</head>
+<body>
+    <nav>
+        <div class="heading">
+            <h4>Andrea Cleveland</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="mainpage.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="workspage.html">Works</a></li>
+            <li><a href="exercises.html">Exercises + Projects</a></li>
+        </ul>
+        </nav>
+        <div class="body-text"><h1>Works & Illustrations</h1></div>
+</body>
+<meta name="viewport" content="width-device-width, initial scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+body  {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* the grid: four equal columns that float next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding:10px;
+}
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/*clears float after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*expanding image container*/
+.container {
+position: relative;
+display: none;
+}
+
+/*expanding image text*/
+#imgtext {
+position: absolute;
+bottom: 15px;
+left: 15px;
+color: white;
+font-size: 30px;
+}
+
+/*closeable button inside the expanded image*/
+.closebtn {
+position: absolute;
+top: 10px;
+right: 15px;
+color: white;
+font-size: 35px;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align: center;">
+</div>
+<!-----the four columns-->
+<div class="row">
+<div class="column">
+<img src="foxandapple2.png" alt="cat1" style="width:90%" onclick="myFunction(this);">
+</div>
+<div class="column">
+<img src="NATSUKI FALL FASHION NOTEXT.png" alt="cat1" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+<img src="saya.png" alt="cat1" style="width:60%" onclick="myFunction(this);">
+</div>
+<div class="column">
+<img src="ragin.png" alt="cat1" style="width:100%" onclick="(this);">
+</div>
+</div>
+
+<div class="container">
+<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+<img id="expandedImg" style="width:100%">
+<div id="imgtext"></div>
+
+<script>
+function myFunction(imgs) {
+    var expandedImg =document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML =imgs.alt;
+    expandImg.parentElement.style.display ="block";
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
